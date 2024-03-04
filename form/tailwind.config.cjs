@@ -6,7 +6,7 @@ const config = {
   theme: {
     extend: {
       colors:{
-        primary: colors.blue,
+        primary: colors.zinc,
         secondary: colors.violet
       }
     },
