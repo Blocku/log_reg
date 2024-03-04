@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<header class="w-full h-16 px-5 flex justify-between items-center border border-zinc-900">
+    <a href="/" class="logo logo--">
+        Logo
+    </a>
+    <div>
+        <button class="flex text-center ">
+            <svg class="block h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </button>
+
+          
+    </div>
+</header>
