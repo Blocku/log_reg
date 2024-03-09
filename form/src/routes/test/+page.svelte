@@ -45,10 +45,3 @@
 
 <button on:click={logout}>Logout</button> -->
 
-
-<script>
-    import BtnM from "../components/btn.svelte";
-</script>
-
-
-<BtnM text='4327423743' ></BtnM>
