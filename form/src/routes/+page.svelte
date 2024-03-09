@@ -1,8 +1,8 @@
-<header class="w-full h-16 px-3 flex justify-between items-center border border-zinc-900">
-    <a href="/" class="logo ">
+<header class="w-full h-16 max-w-[88rem] mx-auto px-3 flex justify-between items-center border border-zinc-900">
+    <a href="/" class="logo">
         Logo
     </a>
-    <div>
+    <div class="md:hidden" >
         <button on:click={handleClick} class="btn btn_menu">
             <svg class="block h-5 w-5 text-primary-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="{icon}" />
@@ -12,7 +12,7 @@
           
     </div>
 
-    <div bind:this={menu} class="hidden p-1 space-y-1 absolute right-0 top-0 mt-12 mr-3 w-48 rounded-lg bg-white shadow-lg border-2 border-primary-200">
+    <div bind:this={menu} class="md:hidden p-1 space-y-1 absolute right-3 top-12 w-48 rounded-lg bg-white shadow-lg border-2 border-primary-200">
         <button class="btn btn_item-menu">
             Profile
         </button>
@@ -23,6 +23,15 @@
         <button class="btn btn_item-menu">
             Log out
         </button>
+    </div>
+    <div class="relative hidden md:flex items-center ml-auto">
+        <nav class="text-md leading-6 font-medium text-slate-700" >
+            <ul class="flex space-x-8">
+                <li>Profile</li>
+                <li>Settings</li>
+                <li>Log out</li>
+            </ul>
+        </nav>
     </div>
 </header>
 
