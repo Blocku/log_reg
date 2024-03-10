@@ -17,7 +17,7 @@
             Profile
         </button>
         <button class="btn btn_item-menu">
-            Settings
+            Settingss
         </button>
         <div class="w-full border rounded-full border-primary-200"></div>
         <button class="btn btn_item-menu">
