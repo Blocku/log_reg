@@ -45,3 +45,15 @@
 
 <button on:click={logout}>Logout</button> -->
 
+
+<script>
+    import Profile from "../components/profile/profile.svelte";
+</script>
+
+
+
+<div>
+    <Profile></Profile>
+</div>
+
+
